@@ -34,4 +34,4 @@ def lambda_handler(event, context):
         topic.publish(Subject="testreact failed!", Message="lambda has failed deploying testreact")
         raise
 
-    return "all ok here"
+    return "it is all ok here"
